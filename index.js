@@ -7,7 +7,7 @@ const app = express();
 
 const UPLOAD_DIR = path.join(__dirname, 'public/uploads');
 const ADMIN_PASS = process.env.ADMIN_PASS || "adomin";
-const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1476922880540282952/NLRrV73zlMkFXgNbo0XJjIDDLuGIY1Le4CMhjQToFoVaJ4HeX3jhbrimdHD1GIWROJS2";
+const DISCORD_WEBHOOK_URL = "https://discord.com/api/webhooks/1478253511186845709/zgOPXPJOf4em3WJ84KA6QwySOEntVoW98Az3_sSijh9dTLPRxbZ37VoP4xGQKm3rQXiZ";
 
 app.use(express.json({ limit: '100mb' }));
 app.use('/files', express.static(UPLOAD_DIR));
